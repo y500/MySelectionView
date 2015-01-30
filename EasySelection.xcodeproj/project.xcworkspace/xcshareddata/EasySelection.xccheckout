@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>10BA5576-F3EC-4EE6-A126-3787E8DBE80F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EasySelection</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2A87DA9EC5C485D1C6F49DC54AEE9D810B5FFD92</key>
+		<string>https://github.com/y500/MySelectionView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EasySelection.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2A87DA9EC5C485D1C6F49DC54AEE9D810B5FFD92</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/y500/MySelectionView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2A87DA9EC5C485D1C6F49DC54AEE9D810B5FFD92</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A87DA9EC5C485D1C6F49DC54AEE9D810B5FFD92</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EasySelection</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E0599C01A7B872E00F48917 /* selection_mark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E0599BF1A7B872E00F48917 /* selection_mark@2x.png */; };
-		3E9C56461A7B6C94008BEFFB /* TableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C56451A7B6C94008BEFFB /* TableData.m */; };
+		3E78D4291A7BCB300072D313 /* selection_mark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E78D4261A7BCB2F0072D313 /* selection_mark@2x.png */; };
+		3E78D42A1A7BCB300072D313 /* MySelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78D4281A7BCB2F0072D313 /* MySelectionView.m */; };
+		3E78D42D1A7BCB420072D313 /* TableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E78D42C1A7BCB420072D313 /* TableData.m */; };
 		3E9C56481A7B7554008BEFFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C56471A7B7554008BEFFB /* UIKit.framework */; };
 		3EA1FF7B1A32F420000022EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1FF7A1A32F420000022EA /* main.m */; };
 		3EA1FF7E1A32F420000022EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1FF7D1A32F420000022EA /* AppDelegate.m */; };
@@ -17,7 +18,6 @@
 		3EA1FF861A32F420000022EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1FF851A32F420000022EA /* Images.xcassets */; };
 		3EA1FF891A32F420000022EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EA1FF871A32F420000022EA /* LaunchScreen.xib */; };
 		3EA1FF951A32F421000022EA /* EasySelectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1FF941A32F421000022EA /* EasySelectionTests.m */; };
-		3EA1FFA01A32F481000022EA /* MySelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1FF9F1A32F481000022EA /* MySelectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E0599BF1A7B872E00F48917 /* selection_mark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selection_mark@2x.png"; path = "../EasySelection/selection_mark@2x.png"; sourceTree = "<group>"; };
-		3E9C56441A7B6C94008BEFFB /* TableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableData.h; path = ../EasySelection/TableData.h; sourceTree = "<group>"; };
-		3E9C56451A7B6C94008BEFFB /* TableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableData.m; path = ../EasySelection/TableData.m; sourceTree = "<group>"; };
+		3E78D4261A7BCB2F0072D313 /* selection_mark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selection_mark@2x.png"; sourceTree = "<group>"; };
+		3E78D4271A7BCB2F0072D313 /* MySelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySelectionView.h; sourceTree = "<group>"; };
+		3E78D4281A7BCB2F0072D313 /* MySelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySelectionView.m; sourceTree = "<group>"; };
+		3E78D42B1A7BCB420072D313 /* TableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableData.h; sourceTree = "<group>"; };
+		3E78D42C1A7BCB420072D313 /* TableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableData.m; sourceTree = "<group>"; };
 		3E9C56471A7B7554008BEFFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3EA1FF751A32F420000022EA /* EasySelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasySelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA1FF791A32F420000022EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,8 +50,6 @@
 		3EA1FF8E1A32F421000022EA /* EasySelectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySelectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA1FF931A32F421000022EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EA1FF941A32F421000022EA /* EasySelectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasySelectionTests.m; sourceTree = "<group>"; };
-		3EA1FF9E1A32F481000022EA /* MySelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySelectionView.h; path = ../EasySelection/MySelectionView.h; sourceTree = "<group>"; };
-		3EA1FF9F1A32F481000022EA /* MySelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySelectionView.m; path = ../EasySelection/MySelectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 		3E78D4241A7BC8D90072D313 /* MySelectionView */ = {
 			isa = PBXGroup;
 			children = (
-				3E0599BF1A7B872E00F48917 /* selection_mark@2x.png */,
-				3EA1FF9E1A32F481000022EA /* MySelectionView.h */,
-				3EA1FF9F1A32F481000022EA /* MySelectionView.m */,
+				3E78D4261A7BCB2F0072D313 /* selection_mark@2x.png */,
+				3E78D4271A7BCB2F0072D313 /* MySelectionView.h */,
+				3E78D4281A7BCB2F0072D313 /* MySelectionView.m */,
 			);
 			path = MySelectionView;
 			sourceTree = "<group>";
@@ -84,8 +84,8 @@
 		3E78D4251A7BC8D90072D313 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				3E9C56441A7B6C94008BEFFB /* TableData.h */,
-				3E9C56451A7B6C94008BEFFB /* TableData.m */,
+				3E78D42B1A7BCB420072D313 /* TableData.h */,
+				3E78D42C1A7BCB420072D313 /* TableData.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -235,8 +235,8 @@
 			files = (
 				3EA1FF841A32F420000022EA /* Main.storyboard in Resources */,
 				3EA1FF891A32F420000022EA /* LaunchScreen.xib in Resources */,
-				3E0599C01A7B872E00F48917 /* selection_mark@2x.png in Resources */,
 				3EA1FF861A32F420000022EA /* Images.xcassets in Resources */,
+				3E78D4291A7BCB300072D313 /* selection_mark@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,11 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E9C56461A7B6C94008BEFFB /* TableData.m in Sources */,
+				3E78D42D1A7BCB420072D313 /* TableData.m in Sources */,
 				3EA1FF811A32F420000022EA /* ViewController.m in Sources */,
 				3EA1FF7E1A32F420000022EA /* AppDelegate.m in Sources */,
 				3EA1FF7B1A32F420000022EA /* main.m in Sources */,
-				3EA1FFA01A32F481000022EA /* MySelectionView.m in Sources */,
+				3E78D42A1A7BCB300072D313 /* MySelectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
